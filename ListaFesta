@@ -1,0 +1,28 @@
+package Pessoa;
+import java.util.ArrayList;
+
+
+public class ListaFesta {
+	private static ListaFesta instance;
+    private ArrayList<Pessoa> lista;
+	
+	
+	private ListaFesta() {
+		lista = new ArrayList<Pessoa>();
+		lista.add(new Pessoa("Luís"));
+		lista.add(new Pessoa("José"));
+		lista.add(new Pessoa("Maria"));
+		lista.add(new Pessoa("João"));
+	}
+	public static ListaFesta getInstance() {
+		if(instance == null)
+			instance = new ListaFesta();
+		return instance;
+	}
+	public void show() {
+		for (Pessoa p: lista) {
+			System.out.println(p.nome);
+		}
+	}
+
+}
