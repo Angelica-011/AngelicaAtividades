@@ -1,0 +1,11 @@
+package Builder;
+
+
+public interface Builder {
+	void reset();
+	void setMotor(String motor);
+	void setGPS(String gps);
+	void setCompBordo(String compBordo);
+	Carro getResult();
+	
+}
