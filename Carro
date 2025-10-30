@@ -1,0 +1,45 @@
+package Builder;
+
+public class Carro {
+    private String motor;
+    private String gps;
+    private String compBordo;
+    private int bancos;
+
+    
+    public void setMotor(String motor) {
+        this.motor = motor;
+    }
+
+    public void setGPS(String gps) {
+        this.gps = gps;
+    }
+
+    public void setCompBordo(String compBordo) {
+        this.compBordo = compBordo;
+    }
+
+    public void setBancos(int bancos) {
+        this.bancos = bancos;
+    }
+
+    
+    public String getMotor() {
+        return motor;
+    }
+
+    public String getGPS() {
+        return gps;
+    }
+
+    public String getCompBordo() {
+        return compBordo;
+    }
+
+    public int getBancos() {
+        return bancos;
+    }
+
+   
+    }
+
