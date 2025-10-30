@@ -1,0 +1,32 @@
+package Builder;
+
+public class Diretor {
+
+    public void makeCarroNormal(BuilderCarroNormal builder) {
+        builder.reset();
+        builder.setBancos(4);
+        builder.setMotor("1.0");
+    }
+
+    public void makeCarroEsportivo(BuilderCarroEsportivo builder) {
+        builder.reset();
+        builder.setBancos(2);
+        builder.setMotor("1.8");
+        builder.setGPS("GPS X");
+        builder.setCompBordo("CB X");
+    }
+
+    public void makeCarroSUV(BuilderCarroSUV builder) {
+        builder.reset();
+        builder.setBancos(5);
+        builder.setMotor("2.0");
+        builder.setGPS("GPS Y");
+    }
+
+    public void makeCarroLongo(BuilderCarroLongo builder) {
+        builder.reset();
+        builder.setBancos(6);
+        builder.setMotor("1.6");
+        builder.setCompBordo("CB Z");
+    }
+}
