@@ -1,0 +1,12 @@
+package observer;
+
+public class Cliente {
+	public static void main(String[] args) {
+		Publisher publisher = new Publisher();
+		Subscriber s = new ConcreteSubscriber();
+		
+		publisher.subscribe(s);
+		
+		publisher.setMainState("Novo vídeo publicado!");
+	}
+}
