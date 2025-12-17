@@ -1,0 +1,10 @@
+package proxy;
+
+public class Cliente {
+	public static void main(String[] args) {
+		Service realService = new Service();
+		ServiceInterface proxy = new Proxy(realService);
+		
+		proxy.operation();
+	}
+}
