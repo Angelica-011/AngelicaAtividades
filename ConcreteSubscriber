@@ -1,0 +1,8 @@
+package observer;
+
+public class ConcreteSubscriber implements Subscriber{
+	public void update(Publisher context) {
+		System.out.println("Recebi atualizações: " + context.getMainState());
+	}
+
+}
