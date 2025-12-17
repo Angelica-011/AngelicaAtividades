@@ -1,0 +1,11 @@
+package observer;
+
+public class Main {
+	public static void main(String[] args) {
+		Produto p = new Produto("Sorvete de Coco Queimado", 10.0f);
+		
+		System.out.println("Produto criado: " + p.getNome() + "- Preço: R$" + p.getPrecoOriginal());
+		
+	}
+
+}
