@@ -1,0 +1,17 @@
+package observer;
+
+public class Produto {
+	private String nome;
+	private float precoOriginal;
+	
+	public Produto(String nome, float precoOriginal){
+		this.nome = nome;
+		this.precoOriginal= precoOriginal;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public float getPrecoOriginal() {
+		return precoOriginal;
+	}
+}
