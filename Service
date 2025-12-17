@@ -1,0 +1,10 @@
+package proxy;
+
+public class Service implements ServiceInterface {
+	public void operation() {
+		System.out.println("executando operações no serviço real");
+	}
+	
+	
+
+}
