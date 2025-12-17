@@ -1,0 +1,16 @@
+package adapter;
+
+public class Cilindro {
+	private int raio;
+	
+	public Cilindro(int raio){
+		this.raio= raio;
+	}
+	public int getRaio(){
+		return raio;
+	}
+	
+	public Cilindro(){
+		
+	}
+}
