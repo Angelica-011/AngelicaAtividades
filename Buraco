@@ -1,0 +1,9 @@
+package adapter;
+
+public class Buraco {
+
+	public Buraco() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
